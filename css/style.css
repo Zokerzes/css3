@@ -2,12 +2,10 @@
   margin: 0px;
   padding: 0px;
 }
-p {
-  /*margin: 0;*/
-}
+
 .cards {
   display: flex;
-  background: #b1acac;
+  background: #eeeeee;
   justify-content: space-around;
   align-items: center;
   padding-left: 135px;
@@ -198,7 +196,7 @@ p {
   color: #4a4a56;
 }
 
-.card03-text-upHeder {
+.text-upHeder {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -208,7 +206,11 @@ p {
 
   color: #217bf4;
 }
-.card03-text-Heder {
+.text-upHeder,
+.community {
+  align-items: center;
+}
+.text-Heder {
   margin-top: 10px;
   font-family: "Inter";
   font-size: 36px;
@@ -251,4 +253,65 @@ p {
   /* or 175% */
 
   color: #656464;
+}
+
+.community {
+}
+.community-hederText {
+  display: block;
+  border: 1px solid white;
+  background-color: #b0abe6;
+  display: block;
+  margin-bottom: 20px;
+}
+.text-upHeder1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #217bf4;
+}
+.community-text-Heder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #0a093d;
+}
+.community-text-general {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  text-align: center;
+
+  color: #656464;
+}
+
+.community-cards {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.community-cards div {
+  width: 35%;
+  margin: 20px;
+  border: 1px solid white;
+  background-color: #6c688f;
 }

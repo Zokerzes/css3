@@ -1,0 +1,254 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  /*margin: 0;*/
+}
+.cards {
+  display: flex;
+  background: #b1acac;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 135px;
+  padding-right: 135px;
+  /*width: 1440px;*/
+}
+.card01 {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-right: 24px;
+}
+.card03 {
+  margin-top: 83px;
+  margin-bottom: 84px;
+  margin-left: 93px;
+  margin-right: 153px;
+}
+
+.base {
+  height: 280px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+  border-radius: 14px;
+  border: 1px solid blue;
+}
+.star-rating {
+  margin-left: 44px;
+  margin-top: 21px;
+  display: flex;
+  align-items: center;
+}
+.star-rating p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  color: #0a093d;
+}
+.star-rating img {
+  margin-right: 10px;
+  width: 28px;
+  height: 28px;
+}
+.members {
+  margin-top: 11px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.members img {
+  margin-top: 5px;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.members p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  color: #5d5b70;
+}
+
+.members p > b {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  letter-spacing: -0.02em;
+
+  color: #217bf4;
+}
+.card-text {
+  margin-top: 8px;
+}
+.card-text p {
+  padding-left: 44px;
+  padding-right: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #8c8c8c;
+}
+.ref {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  margin-bottom: 27px;
+}
+.ref p {
+  padding-left: 44px;
+  font-family: "Inter";
+  font-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  color: #217bf4;
+}
+
+.awwwards {
+  margin-left: 44px;
+  margin-top: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.awwwards p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  color: #0a093d;
+}
+
+.best {
+  margin-top: 11px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.best img {
+  margin-top: 5px;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.best p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  color: #5d5b70;
+}
+
+.best p > b {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  letter-spacing: -0.02em;
+
+  color: #217bf4;
+}
+
+.ref1 {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  margin-bottom: 27px;
+}
+.ref1 p {
+  padding-left: 44px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  color: #4a4a56;
+}
+
+.card03-text-upHeder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  color: #217bf4;
+}
+.card03-text-Heder {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-size: 36px;
+  line-height: 48px;
+  /* or 133% */
+
+  color: #0a093d;
+}
+
+.card03-rectangle {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  background: #217bf4;
+  box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+  border-radius: 14px;
+}
+.card03-rectangle p {
+  padding: 20px 20px 20px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.card03-text-general {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #656464;
+}
